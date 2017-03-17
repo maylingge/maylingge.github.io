@@ -1,1 +1,2 @@
-# maylingge.github.io
+Start to record learning # maylingge.github.io
+Config
