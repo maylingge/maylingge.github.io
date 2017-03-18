@@ -1,2 +1,2 @@
-Start to record learning # maylingge.github.io
-## Config
+# MISC
+[Shared library](https://maylingge.github.io/shared_library.md)
