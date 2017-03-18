@@ -1,1 +1,0 @@
-readelf -d lib.so
