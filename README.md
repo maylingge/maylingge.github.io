@@ -1,2 +1,2 @@
 # MISC
-[Shared library](https://maylingge.github.io/shared_library.md)
+* [Shared library](shared_library.md)
