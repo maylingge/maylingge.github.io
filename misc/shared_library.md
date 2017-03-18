@@ -12,6 +12,8 @@
   linker collects object files and library into executable.
   * conca
   
+  [Reference: the inside story on shared libraries and dynamic loading]( https://cseweb.ucsd.edu/~gbournou/CSE131/the_inside_story_on_shared_libraries_and_dynamic_loading.pdf)
+  
 ## What is shared library?
 
 ## How to generate SO?
