@@ -1,6 +1,8 @@
 ## Why need shared library?
   extension, dynamically loadable module
 
+
+## How standard linking works?
   ### Compiler and object files
   compiler converts source files to object file. Object file has serveral different sections.
   * text: machine code instructions
@@ -37,13 +39,15 @@
   Instead, A better solution is to embed customized search paths in the executable itself using special linker options such as -R or -Wl, -rpath
 
 
+## Dynamic loading
+  loading new libraries at runtime 
+  "Dynamic loading is usually managed by three functions exposed by the dynamic linker: dlopen() (which loads a new shared library), dlsym() (which looks up a specific symbol in the library), and  dlclose() (which unloads the library and removes it from memory)"
+  
+  ### Difference between dynamic loading and linking?
+  The way that the shared library loaded is same. 
   
   [Reference: the inside story on shared libraries and dynamic loading]( https://cseweb.ucsd.edu/~gbournou/CSE131/the_inside_story_on_shared_libraries_and_dynamic_loading.pdf)
   
-## What is shared library?
 
-## How to generate SO?
-
-## How SO used/linked?
-
+To check the dependent library.
 readelf -d lib.so
