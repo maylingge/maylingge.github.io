@@ -27,9 +27,13 @@
   ### Dynamic binding
   watch the binding by setting LD_DEBUG=bindings
   "When a program linked with shared libraries runs, program execution does not immediately start with that program’s first statement. Instead, the operating system loads and executes the dynamic linker (usually called ld.so), which then scans the list of library names embedded in the executable."
+  
   "To locate the libraries, the dynamic linker uses a configurable library search path. This path’s default value is normally  stored  in  a  system  configuration  file  such  as /etc/ld.so.conf . Additionally, other library search directories might be embedded in the executable or specified by the user in the LD_LIBRARY_PATH environment variable."
+  
   "You can obtain detailed information about how the dynamic linker loads libraries by setting the LD_DEBUG environment variable to libs"
+  
   set LD_LIBRARY_PATH is always a bad idea for redirect the linker search path.
+  
   Instead, A better solution is to embed customized search paths in the executable itself using special linker options such as -R or -Wl, -rpath
 
 
