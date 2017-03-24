@@ -37,7 +37,13 @@
   set LD_LIBRARY_PATH is always a bad idea for redirect the linker search path.
   
   Instead, A better solution is to embed customized search paths in the executable itself using special linker options such as -R or -Wl, -rpath
-
+  
+  SONAME
+  real name
+  linker name
+  
+  ld will link shared library with linker name is soname is not defined for the library. Otherwise, use the soname to find the library.
+http://blog.csdn.net/alex_ww/article/details/4544207
 
 ## Dynamic loading
   loading new libraries at runtime 
