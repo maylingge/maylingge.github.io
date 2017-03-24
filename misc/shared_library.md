@@ -49,5 +49,8 @@
   [Reference: the inside story on shared libraries and dynamic loading]( https://cseweb.ucsd.edu/~gbournou/CSE131/the_inside_story_on_shared_libraries_and_dynamic_loading.pdf)
   
 
+## ELF
+On GNU glibc-based systems, including all Linux systems, starting up an ELF binary executable automatically causes the program loader to be loaded and run. On Linux systems, this loader is named /lib/ld-linux.so.X (where X is a version number). This loader, in turn, finds and loads all other shared libraries used by the program.
+
 To check the dependent library.
 readelf -d lib.so
