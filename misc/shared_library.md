@@ -60,3 +60,5 @@ On GNU glibc-based systems, including all Linux systems, starting up an ELF bina
 
 To check the dependent library.
 readelf -d lib.so
+
+## How to create and use a shared library?
