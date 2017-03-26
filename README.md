@@ -1,7 +1,6 @@
 # MISC
 * [Shared library](misc/shared_library.md)
-
-
+* [GCC/G++](misc/gnu_compiler.md)
 # Python
 * [Freeze](python/freeze.md)
 * [Ctypes](python/ctypes.md)
