@@ -16,3 +16,7 @@
 
 
 # Protocol
+
+
+# English
+* [Ted](english/ted.md)
