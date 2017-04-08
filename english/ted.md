@@ -16,7 +16,7 @@ In 1644, northern ManChu **clans** overthrew the Ming to establish Qing Dynasty 
 
 But its job wasnt finished. During world war II, China used sections for defending Japanese invasion and some parts are still rumored to be used for military training. But the wall's main purpose today is cultural. As one of the largest man-made structures on Earth, it was granted UNESCO World heritage status in 1987. Originally built to keep people out of China, the Great Wall now welcomes millions of visitors each year. In fact, the **infux** of tourists has caused the wall to **deteriorate**, leading the Chinese goverment to launch preservation and initiatives. 
 
-It ofen acclaimed as the only visible man-made structure from the space. Unforturnately, that's not at all true. In low orbit of Earth, all structures like bridges, highways and airports are visible, and the Great Wall is only barely **discernible**. From the moon, it doesnt stand a chance. But regardless, it's the Earth we should be studying it from because new sections are still discovered every few years, branding from the main body and expanding this remarkable monument to human achievement.
+It ofen acclaimed as the only visible man-made structure from the space. Unforturnately, that's not at all true. In lower **orbit** of Earth, all structures like bridges, highways and airports are visible, and the Great Wall is only barely **discernible**. From the moon, it doesnt stand a chance. But regardless, it's the Earth we should be studying it from because new sections are still discovered every few years, branding from the main body and expanding this remarkable monument to human achievement.
 
 
 
