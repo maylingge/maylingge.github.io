@@ -44,15 +44,19 @@ damaging. frigtening, mess.
 
 could you find seven hours to mentor seven worthy people. Cant you see how busy I am.
 
-Time is highly elastic. We cannot make more time. Time will stretch to accommodate. The key to time management is to treat our priorities as important as the broken waterheater.
+Time is highly elastic. We cannot make more time. Time will stretch to accommodate where we put it into. The key to time management is to treat our priorities as equivalent as the broken waterheater.
 
+when I finally do catch up with her.
 Out for a hike and it's a beatiful spring morning. 
-Everything I do is my chioce.
+Everything I do and every minitue I spend is my chioce.
 
 I dont have time ofen means it's not a priority.
 
-This is not a matter of not having time.
+I can acknowledge it as not of lacking time. This is not a matter of not having time.
+ 
+Family holiday letter.
 
+This letter serves a purpose to tell your family and friends about what you did in the last year.
 Fill our life with things that deserve it.
 
 Your personal life that matters to your. An amazing year for you and the people you care. Family holiday letter. We treat our priorities as . make yourself three category list. 
