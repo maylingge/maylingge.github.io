@@ -63,8 +63,12 @@ Your personal life that matters to your. An amazing year for you and the people 
 
 performance review.
 
+doable steps.
 
-a low opportunity cost.
+dig the shoe out the back of the closet.
+
+Friday afternoon is a low opportunity cost time.
+
 A three category priority list:
 career, relationship, self
 Some people's life are just harder than others.
@@ -73,7 +77,8 @@ Working a full-time job,
 
 We dont need that much of time to do amazing things.
 
-Pull out the phone
+Pull out the phone, puttering around the house, watching TV
+
 use your bits of time for bits of joy.
 required two hours bus ride, make the whole experience almost enjoyable.
 Family breakfast for a substitude.
