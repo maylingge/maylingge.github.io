@@ -33,11 +33,14 @@ peasant: people who work on farm
 
 
 # Time management
-When people find out I write about time management, they assume two things. One is that I am always on time. And I am not. I four small children. And I would like to blame them for my occasional **tardiness**. But sometimes, it's just not their fault. I was once later for my own speech on time management. We all have to take this moment together and **savor** that irony. The second is I have a lot of tips and tricks for saving bits of time here and there. Sometimes, I hear from magzines that how to help their readers to find an extra hour a day. And the idea is i will save my time in everyday activies and add it up and we will have time for the good stuff. I question the entire premise of the entire piece. I always interesting .  You know another way to find 30 minutes to exercise. Dont watch two hours TV a day. Anyway, the idea is we will save bits of time here and there. we will finally get to everything we want to do. 
+When people find out I write about time management, they assume two things. One is that I am always on time. And I am not. I four small children. And I would like to blame them for my occasional **tardiness**. But sometimes, it's just not their fault. I was once later for my own speech on time management. We all have to take this moment together and **savor** that irony. The second is I have a lot of tips and tricks for saving bits of time here and there. Sometimes, I hear from magzines that how to help their readers to find an extra hour a day. And the idea is we will shave my time in everyday activies and add it up and we will have time for the good stuff. I question the entire premise of the entire piece. I always interesting .  You know another way to find 30 minutes to exercise. Dont watch two hours TV a day. Anyway, the idea is we will save bits of time here and there. we will finally get to everything we want to do. 
 
-We dont build the life we want by saving time. We build the life we want and time saved.
+We dont build the life we want by saving time. We build the life we want and time saved itself.
 
+demanding jobs, their own business, kids to care for, parents to care for.
 Waterheater has broken and there is water all over the basement. 
+damaging. frigtening, mess.
+
 
 could you find seven hours to mentor seven worthy people. Cant you see how busy I am.
 
@@ -57,15 +60,19 @@ Your personal life that matters to your. An amazing year for you and the people 
 performance review.
 
 
+a low opportunity cost.
+A three category priority list:
 career, relationship, self
 Some people's life are just harder than others.
 178 hours in a week.
 Working a full-time job,
 
+We dont need that much of time to do amazing things.
 
 Pull out the phone
 use your bits of time for bits of joy.
 required two hours bus ride, make the whole experience almost enjoyable.
 Family breakfast for a substitude.
 
-I truely believe this. THere is time. Even if we are busy, we have time for what matters. If we work on things matters.
+I truely believe this. THere is time. Even if we are busy, we have time for what matters. And when we focus on things matters, we can build the life we want.
+
