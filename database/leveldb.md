@@ -9,6 +9,9 @@ why use pointer of pointer to hold DB?
 log_->AddRecord
 WriteBatchInternal::InsertInto
 
+
+### DBImpl::MaybeScheduleCompaction
+
 # Basic operations
 ## WriteBatch
   MemTableInserter
