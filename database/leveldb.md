@@ -6,8 +6,13 @@ why use pointer of pointer to hold DB?
 
 # Basic operations
 ## WriteBatch
+  MemTableInserter
+  MemTable::Get
+  MemTable::Add
+  
+  SkipList<const char*, KeyComparator> Insert
 
-# Slice
+## Slice
 
 ## Put
 Call writeBatch internally
