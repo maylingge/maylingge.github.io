@@ -3,6 +3,11 @@
 ### DB::Open  
 why use pointer of pointer to hold DB?
  To pass out the DBImpl through input parameter
+ 
+ 
+### DBImpl::Write
+log_->AddRecord
+WriteBatchInternal::InsertInto
 
 # Basic operations
 ## WriteBatch
