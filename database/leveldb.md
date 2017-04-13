@@ -34,8 +34,12 @@ Call writeBatch internally
 ### class Arena;
 why need class declaration here and also <util/arena.h> is included?
 no need to include arena.h here but just inside cpp file?
+
 ### explicit constructor
 no implicit conversion from compiler allowed.
+
+### template<typename A, class B>
+difference between typename and class?
 
 http://blog.marchtea.com/archives/212 
 http://cighao.com/2016/08/13/leveldb-source-analysis-01-introduction/
