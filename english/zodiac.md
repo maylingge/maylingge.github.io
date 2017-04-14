@@ -17,6 +17,7 @@ The ox came in the second with the powerful tiger right behind him.
 The rabbit too small to battle the current, nimbly hopped across the stones and logs to come in forth. 
 Next came the dragon, who could have flown across but stopped to help some creatures she had encountered on the way.
 
+After
 The jade emperor looked out at the river and spotted the sheep, the monkey and the rooster all atop a raft, working together to push it through the weeds. when they made it across.
 
 The trio agreed to give the eighth place to the sheep who has been the most comforting and harmonious among them. followed by the monkey and rooster. 
