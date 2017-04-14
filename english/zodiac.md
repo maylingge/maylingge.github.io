@@ -17,4 +17,7 @@ The ox came in the second with the powerful tiger right behind him.
 The rabbit too small.
 Next is the dragon, but help some
 
-The jade emperor 
+The jade emperor looked out over the river and spotted the sheep, the monkey and the rooster all atop a raft, working together to push it through the weeds.
+The trio agreed to give the eighth place to the sheep who has been the most comforting and harmonious among them. followed by the monkey and rooster. 
+
+Next coming the dog crambling onto the shore. He was a great swimmer. But frollcked in the water for so long time, he only managed to come in eleventh. THe final spot was detained by the pig.
