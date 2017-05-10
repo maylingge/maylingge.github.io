@@ -23,3 +23,10 @@ some field still requires table level locking (such as auto_incr field)
 ### give select higher priority
 ### concurrent insert of myisam
 ### max write count
+
+
+# Transaction
+
+# Isolation level
+
+# MVCC
