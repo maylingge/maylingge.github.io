@@ -2,6 +2,8 @@
 public key infrastructure
 [pki](https://en.wikipedia.org/wiki/Public_key_infrastructure)
 
+[how it works with tcp](https://security.stackexchange.com/questions/20803/how-does-ssl-tls-work)
+
 [TLS handshake](https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_7.1.0/com.ibm.mq.doc/sy10660_.htm)
 
 # self-signed certificate
