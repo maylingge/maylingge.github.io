@@ -5,6 +5,7 @@ public key infrastructure
 [how it works with tcp](https://security.stackexchange.com/questions/20803/how-does-ssl-tls-work)
 
 [TLS handshake](https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_7.1.0/com.ibm.mq.doc/sy10660_.htm)
+[overview of handshake](https://www.ssl.com/article/ssl-tls-handshake-overview/)
 
 # self-signed certificate
 [how to create](https://devcenter.heroku.com/articles/ssl-certificate-self)
