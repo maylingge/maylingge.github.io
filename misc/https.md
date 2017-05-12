@@ -16,6 +16,11 @@ public key infrastructure
 [simple server with ssl](http://code.activestate.com/recipes/442473-simple-http-server-supporting-ssl-secure-communica/)
 
 # asymmetric and symmetric encryption 
+asymmetric is expensive than symmetric encryption
+
+so TLS uses public/private key to exchange a symmetric secret key.
+
+And then client/server will use the shared secret key to exchange message
 
 Symmetric Encryption
 Symmetric encryption is the oldest and best-known technique. A secret key, which can be a number, a word, or just a string of random letters, is applied to the text of a message to change the content in a particular way. This might be as simple as shifting each letter by a number of places in the alphabet. As long as both sender and recipient know the secret key, they can encrypt and decrypt all messages that use this key.
