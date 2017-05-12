@@ -40,3 +40,9 @@ About Digital Certificates
 To use asymmetric encryption, there must be a way for people to discover other public keys. The typical technique is to use digital certificates (also known simply as certificates). A certificate is a package of information that identifies a user or a server, and contains information such as the organization name, the organization that issued the certificate, the user's e-mail address and country, and the user's public key.
 
 When a server and client require a secure encrypted communication, they send a query over the network to the other party, which sends back a copy of the certificate. The other party's public key can be extracted from the certificate. A certificate can also be used to uniquely identify the holder.
+
+# TLS Session Resumption
+resume tls session over different tcp connection
+
+# HTTP Persistent connection 
+[keep alive](http://51write.github.io/2014/04/09/keepalive/)
