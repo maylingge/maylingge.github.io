@@ -6,19 +6,19 @@ int main() {
 
 	// your code goes here
   
-	cout<<sizeof(EnumTest)<<endl;
+	cout<<sizeof(EnumTest)<<endl;  #4 
   
-	cout<<a<<endl;
+	cout<<a<<endl;  #1
   
-	cout<<sizeof(a)<<endl;
+	cout<<sizeof(a)<<endl; #4 
   
 	enum EnumTest myenum;
   
 	myenum = (EnumTest)1;
   
-	cout<<myenum<<endl;
+	cout<<myenum<<endl; #1
   
-	cout<<sizeof(myenum)<<endl;
+	cout<<sizeof(myenum)<<endl;  #4
   
 	return 0;
   
