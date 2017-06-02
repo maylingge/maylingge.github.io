@@ -30,6 +30,7 @@ using namespace std;
 enum Day {One, Two};
 
 int main() {
+
 	// your code goes here
 	int i = One;
 	cout<<i<<endl;
