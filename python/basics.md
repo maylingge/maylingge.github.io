@@ -26,4 +26,6 @@
     Attempting this with an iterator will just return the same exhausted iterator object used in the previous iteration pass, making it appear like an empty container.
     
 
+https://docs.python.org/2/library/stdtypes.html#typeiter
+
 # enumerate()
