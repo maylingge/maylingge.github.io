@@ -35,7 +35,7 @@ int main() {
 	int i = One;
 	cout<<i<<endl;
 	
-	Day j = Day(2);
+	Day j = Day(2);  // (Day)2  or static_cast<Day>(2)
 	cout<<j<<endl;
 	return 0;
 }
