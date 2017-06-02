@@ -15,7 +15,10 @@
     
     
   ## iterator
-  
+  must support:
+    __iter__()
+    next()
+    
     An object representing a stream of data. 
     Repeated calls to the iterator’s next() method return successive items in the stream. 
     When no more data are available a StopIteration exception is raised instead. 
