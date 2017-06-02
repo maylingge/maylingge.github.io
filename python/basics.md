@@ -2,7 +2,7 @@
   iteration protocol: __iter__()
   sequence protocol: __getitem__()
   
-  ##　iterable
+  ## iterable
   
     An object capable of returning its members one at a time. 
     
