@@ -33,6 +33,16 @@ https://docs.python.org/2/library/stdtypes.html#typeiter
 
 
 # generator & yield
+
+## a generator is a special type of iterator
+
+## yield a value when a value sent to me
+def get_primes(number):
+    while True:
+        if is_prime(number):
+            number = yield number
+        number += 1
+        
 https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
 
 # enumerate()
