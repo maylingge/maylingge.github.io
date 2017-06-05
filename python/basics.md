@@ -38,8 +38,9 @@ https://docs.python.org/2/library/stdtypes.html#typeiter
 
 ## yield a value when a value sent to me
 def get_primes(number):
-    while True:
-        if is_prime(number):
+
+     while True:
+         if is_prime(number):
             number = yield number
         number += 1
         
