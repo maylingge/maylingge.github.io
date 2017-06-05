@@ -31,4 +31,8 @@
 
 https://docs.python.org/2/library/stdtypes.html#typeiter
 
+
+# generator & yield
+https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
+
 # enumerate()
