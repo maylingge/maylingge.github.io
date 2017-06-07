@@ -46,3 +46,18 @@ int main() {
 
 
 # const
+
+# virtual & pure virtual
+	
+	virtual ~abstract() = 0;
+	abstract::~abstract() {}
+	
+	
+	Invoked in order:
+	Base::Constructor()
+	Derived::Constructor()
+	
+	Derived::Destructor()
+	Base::Destructor()
+	
+	base class's default constructor/destructor is called by default from Derived class
