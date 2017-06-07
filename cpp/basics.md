@@ -48,7 +48,7 @@ int main() {
 # const
 
 # virtual & pure virtual
-	
+	a virtual base's destructor must be virtual in case of a delete Base* where Base* pointing to a Derived instance.
 	virtual ~abstract() = 0;
 	abstract::~abstract() {}
 	
