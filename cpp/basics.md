@@ -61,3 +61,15 @@ int main() {
 	Base::Destructor()
 	
 	base class's default constructor/destructor is called by default from Derived class
+
+# Operator overload
+	return type: const reference | reference | value
+	const Interger operator++(Interger& a, int)
+	const Interger& operator++(Interger& a)
+	
+	
+# Copy constructor & operator=
+	Rule of three:
+	Destructor
+	Copy constructor
+	operator=
