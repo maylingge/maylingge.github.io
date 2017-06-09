@@ -1,5 +1,5 @@
 # iter()
-  iteration protocol: __iter__()
+  iteration protocol: __iter__()  : proxy to another iterator
   sequence protocol: __getitem__()
   
   ## iterable
@@ -17,6 +17,7 @@
   ## iterator
   must support:
     __iter__()
+    
     next()
     
     An object representing a stream of data. 
