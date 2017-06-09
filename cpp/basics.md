@@ -73,3 +73,10 @@ int main() {
 	Destructor
 	Copy constructor
 	operator=
+
+# Operator new
+	call global operator new inside customized operator new
+	::operator new()
+	
+	set customzied new handler and restore global new handler before leaving customized oeprator new
+	set_new_handler(...)
