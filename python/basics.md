@@ -1,5 +1,8 @@
 # iter()
-  iteration protocol: __iter__()  : proxy to another iterator
+  iteration protocol: 
+  
+  __iter__()  : proxy to another iterator
+  
   sequence protocol: __getitem__()
   
   ## iterable
