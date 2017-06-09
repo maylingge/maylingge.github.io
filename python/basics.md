@@ -47,3 +47,8 @@ def get_primes(number):
 https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
 
 # enumerate()
+
+# next(iterator[, default]) 
+    raise StopIteration or return default
+    
+    
