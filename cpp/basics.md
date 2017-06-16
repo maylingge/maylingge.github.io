@@ -84,3 +84,5 @@ int main() {
 
 # Smart pointer
   reference counter is also a newed object and bind with the raw pointer.
+  
+  boost::uncopiable
