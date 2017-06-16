@@ -80,3 +80,7 @@ int main() {
 	
 	set customzied new handler and restore global new handler before leaving customized oeprator new
 	set_new_handler(...)
+
+
+# Smart pointer
+  reference counter is also a newed object and bind with the raw pointer.
