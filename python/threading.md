@@ -18,7 +18,8 @@
 
 # Multiprocessing
 
-##
+## Pool
+### map and apply/apply_async
 
 
 # Threading and Multiprocessing pros and cons
