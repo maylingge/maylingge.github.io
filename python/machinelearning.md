@@ -23,7 +23,7 @@
 
 
 # numpy
-##　numpy.ndarray
+## numpy.ndarray
 
   dtype
   
