@@ -21,3 +21,13 @@
 
 
 
+
+# numpy
+numpy.ndarray
+  *dtype*
+  *shape*
+  ways to create ndarray:
+    numpy.zeros
+    numpy.empty
+    numpy.array
+
