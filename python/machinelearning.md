@@ -29,5 +29,6 @@
   - ways to create ndarray:
     * numpy.zeros
     * numpy.empty
+    * numpy.ones
     * numpy.array
 
