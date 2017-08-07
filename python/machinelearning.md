@@ -30,9 +30,9 @@
   shape
   
   ways to create ndarray:
-  numpy.zeros
+  * [numpy.zeros]
   
-  numpy.empty
+  * [numpy.empty]
   
-  numpy.array
+  * [numpy.array]
 
