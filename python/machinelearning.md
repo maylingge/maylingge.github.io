@@ -26,9 +26,20 @@
 ## numpy.ndarray
   - dtype
   - shape
+  - operations:
+    * ~
+    
   - ways to create ndarray:
     * numpy.zeros
     * numpy.empty
     * numpy.ones
     * numpy.array
 
+# matplotlib
+  * figure
+  * subplot
+  * plot
+  * scatter
+  
+# sklearn
+  * neighbors
