@@ -31,8 +31,6 @@
   
   ways to create ndarray:
   * [numpy.zeros]
-  
   * [numpy.empty]
-  
   * [numpy.array]
 
