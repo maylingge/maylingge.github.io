@@ -5,7 +5,7 @@
 * [Freeze](python/freeze.md)
 * [Ctypes](python/ctypes.md)
 * [Threading](python/threading.md)
-
+* [MachineLearning](python/machinelearning.md)
 
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
