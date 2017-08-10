@@ -45,37 +45,32 @@
 
 # numpy
 ### numpy.ndarray
-  - dtype
-  - shape
-  - operations:
-    * ~
-  - ravel() ?
-    
-  - ways to create ndarray:
-    * numpy.zeros
-    * numpy.empty
-    * numpy.ones
-    * numpy.array
+    dtype
+    shape
+    operations:
+      * ~
+    ravel() ?
+
+    ways to create ndarray:
+      numpy.zeros
+      numpy.empty
+      numpy.ones
+      numpy.array
 
 # matplotlib
-  * figure
-  * subplot
-  * plot
-  * scatter
+    figure
+    subplot
+    plot
+    scatter
   
 # sklearn
-  * from sklearn.cluster import KMeans
-    > km = KMeans(n_clusters=n)
-  
-    > km.fit(...)
+    from sklearn.cluster import KMeans
+    km = KMeans(n_clusters=n)
+    km.fit(...)
+    km.predict(...)
     
-    > km.predict(...)
-    
-  * from sklearn import neighbors
-    > knn = neighbors.KNeighborsClassifier(n_neighbors=2)
-    
-    > knn.fit()
-    
-    > knn.predict
-    
-    > knn.predict.proba
+    from sklearn import neighbors
+    knn = neighbors.KNeighborsClassifier(n_neighbors=2)
+    knn.fit()
+    knn.predict
+    knn.predict.proba
