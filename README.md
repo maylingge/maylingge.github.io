@@ -1,6 +1,12 @@
 # MISC
 * [Shared library](misc/shared_library.md)
 * [GCC/G++](misc/gnu_compiler.md)
+* [Django](misc/django.md)
+* [https](misc/https.md)
+* [linux](misc/linux.md)
+* [Reactor&Proactor](misc/Reactor_and_Proactor.md)
+
+
 # Python
 * [Freeze](python/freeze.md)
 * [Ctypes](python/ctypes.md)
