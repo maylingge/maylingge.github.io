@@ -13,6 +13,16 @@
       * C1 是个数组，每个特征对应的系数，正直越大，对分为正类的影响大，负值数值越大对分为负类的影响越大
       
   ### 朴素贝叶斯分类器
+       
+      P(A)(B|A) = P(B)P(A|B)
+      P(F1,F2)*P(C|F1,F2) = P(C)*P(F1,F2|C)
+      P(C|F1,F2) = P(C)*P(F1,F2|C)/P(F1,F2)
+      假设所有的特征相互独立
+      P(F1,F2|C) = P(F1|C)*P(F2|C)
+      P(C|F1,F2) = P(C)*P(F1|C)*P(F2|C)/P(F1,F2)
+      根据给定的证据估算哪个类别更有可能
+      加法平滑 拉普拉斯算子平滑 Lidstone平滑 （在所有计数上加一）
+      Cbest = argmaxcC(logP(C=c) + Sum(logP(Fk|C))
 
   ### 评估分类器的性能
       * 欠拟合 
@@ -76,3 +86,9 @@
     knn.fit()
     knn.predict
     knn.predict.proba
+    
+    from sklearn.naive_bayes import MultinomialNB
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.pipline import Pipeline
+    from sklearn.cross_validation import ShuffleSplit
+    from sklearn.metrics import precision_recall_curve, auc
