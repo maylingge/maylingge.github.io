@@ -49,12 +49,31 @@
 
 
 # 回归
-     OLS Ordinary Least Squares
+     OLS Ordinary Least Squares 最小二乘法 （均方误差最小的线性拟合）
      numpy.linalg.lstsq 
      RMSE: Root Mean Squared Error, 真实值和预测值之差的平方和除以总数（均方根误差）
      RMSE 与 标准差相似
      
      大多数数据和它们的均值之间的偏移量最多是两个标准差
+     
+     交叉验证
+     from sklearn.cross_validation import KFold
+     kf = KFold(len(x), n_folds=10)
+     for train, test in kf:
+     
+     
+### 惩罚式回归
+     如果对训练数据过去信任，就会过拟合，需要加一个惩罚项*惩罚力度
+     L1惩罚: Lasso 法 惩罚项是系数的绝对值之和*惩罚力度
+     L2惩罚：岭回归法 惩罚项是系数的平方和
+     二者的结合是弹性网（elastic net）
+    
+     惩罚回归比非惩罚回归拟合的系数要小，甚至是稀疏的，也就是有些特征在拟合的时候不会用到
+     模型把特征选择和回归一起做了
+     
+     from sklearn.linear_model import ElasticNet
+     en = Elastic_net(fit_intercept=True, alpha=0.5)
+     
 # 深度学习
 # 数据预处理 
 # 练习
