@@ -73,6 +73,16 @@
 
      from sklearn.linear_model import ElasticNet
      en = Elastic_net(fit_intercept=True, alpha=0.5)
+   
+### 特征数多于样本
+     OSLS可以得到0误差的训练模型，但模型泛化很差
+     加惩罚项
+     惩罚力度过大 就会造成欠拟合，很多特征的系数会是0
+     惩罚力度太小 接近0就会变成OLS，过拟合
+     
+     两层交叉验证
+     第一层验证 选择最优的参数（惩罚力度）
+     第二层验证 评估模型的泛化能力
      
 # 深度学习
 # 数据预处理 
