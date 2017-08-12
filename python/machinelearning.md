@@ -49,7 +49,12 @@
 
 
 # 回归
-
+     OLS Ordinary Least Squares
+     numpy.linalg.lstsq 
+     RMSE: Root Mean Squared Error, 真实值和预测值之差的平方和除以总数（均方根误差）
+     RMSE 与 标准差相似
+     
+     大多数数据和它们的均值之间的偏移量最多是两个标准差
 # 深度学习
 # 数据预处理 
 # 练习
