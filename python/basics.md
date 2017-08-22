@@ -56,3 +56,19 @@ https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-e
     raise StopIteration or return default
     
     
+# re
+    metacharacters: . * + ^ $ ? \ | [ ] { } ( ) 
+    [abc]  [a-c]: a set of characters  . Metacharacters are treated as normal ones inside classes. [^a-c]: for charaters not in the set
+    \ : the backslash can be followed by various characters to signal various special sequences. to remove the special meaning
+        \d
+        \D
+        \w
+        \W
+        \s any spaces
+        \S
+        
+     . : it matches anything except a newline. if re.DOTALL specified, it will match anything
+        
+    
+    
+    
