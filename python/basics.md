@@ -68,7 +68,17 @@ https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-e
         \S
         
      . : it matches anything except a newline. if re.DOTALL specified, it will match anything
-        
-    
+     
+     repeating:
+     {m,n}
+     * {1,}
+     ? {0, 1}
+     + {1,}
+     
+     Regular expressions are compiled into _pattern objects_
+     
+     preferred to write regular expression in python raw string: r'\n' to handle backslash properly.
+     
+     _match object_
     
     
