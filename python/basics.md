@@ -80,5 +80,23 @@ https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-e
      preferred to write regular expression in python raw string: r'\n' to handle backslash properly.
      
      _match object_
+     
+     \b: word boundary
+     \B
+     \A & ^
+     
+     group: ()
+         non-capturing group: (?:...)
+         named group: (?P<name>...)
     
-    
+     zero-length assertion:
+         \b
+         \B
+         (?=...)
+         (?!...)
+         
+     split
+     
+     non-greedy:
+         *? +? ?? {m, n}?
+     
