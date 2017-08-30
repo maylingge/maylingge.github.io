@@ -15,6 +15,7 @@
 
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
+* [REST API design rules](server/rest.md)
 
 
 # Database
