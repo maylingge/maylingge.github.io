@@ -5,3 +5,4 @@
 - [ ] threading
 - [ ] multiprocessing
 - [ ] decorator
+- [ ] datetime
