@@ -7,3 +7,4 @@
 - [ ] multiprocessing
 - [ ] decorator
 - [ ] datetime
+- [ ] collections
