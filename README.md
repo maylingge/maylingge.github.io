@@ -7,11 +7,13 @@
 * [Reactor&Proactor](misc/Reactor_and_Proactor.md)
 
 
+
 # Python
 * [Freeze](python/freeze.md)
 * [Ctypes](python/ctypes.md)
 * [Threading](python/threading.md)
 * [MachineLearning](python/machinelearning.md)
+* [Unicode](python/unicode.md)
 
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
