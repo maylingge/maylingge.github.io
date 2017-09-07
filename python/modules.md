@@ -4,3 +4,4 @@
 - [ ] subprocess
 - [ ] threading
 - [ ] multiprocessing
+- [ ] decorator
