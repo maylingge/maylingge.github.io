@@ -2,7 +2,9 @@
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
 
 _There is no simple way to get a const_iterator from a non-const container_ ??
+
 _C++11 vector insert uses const_iterator as the input position_ ??
+
 _how to implement a non-member version of cbegin, cend_ ??
 
     typedef value_type* iterator;                     
