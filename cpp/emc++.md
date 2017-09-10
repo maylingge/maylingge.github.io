@@ -34,7 +34,18 @@
 
 # Item 12: Declare overriding functions override
     * Base class function must be virtual
-    
+    class Base {
+    public:
+      virtual void mf1() const override;
+
+
+    };
+
+    class Derived {
+    public:
+      void mf1();	
+
+    };
   
 
 # Item 13: Prefer const_iterator to iterator
