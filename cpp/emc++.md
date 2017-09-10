@@ -1,12 +1,41 @@
 # Item 11: Prefer deleted functions to private undefined ones
-    * special member functions that C++ automatically generates when they are needed:
+    special member functions that C++ automatically generates when they are needed:
     * Default constructor
     * Destructor
     * Copy constructor
     * Copy assignment operator
+    
+    Public delete function VS Private undefined function
+    Non-member function
+    overload:
+      bool isLucky(int number);
+      bool isLucky(float number) = delete;
+    
+    template instantiation
+      template<typename T>
+      void processPointer<T* ptr>;
+      #include <iostream>
+      #include <vector>
+      using namespace std;
+      template<typename T>
+      void processPointer(T* ptr) {
+      }
 
-# Item 12:
+      template<typename T>
+      void processPointer<void>(void* ptr) = delete;     
 
+      int main() {
+         // your code goes here
+         void* x;
+         processPointer(x);
+
+         return 0;
+      }
+
+# Item 12: Declare overriding functions override
+    * Base class function must be virtual
+    
+  
 
 # Item 13: Prefer const_iterator to iterator
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
