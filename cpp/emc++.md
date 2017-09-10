@@ -1,4 +1,14 @@
-# Prefer const_iterator to iterator
+# Item 11: Prefer deleted functions to private undefined ones
+    * special member functions that C++ automatically generates when they are needed:
+    * Default constructor
+    * Destructor
+    * Copy constructor
+    * Copy assignment operator
+
+# Item 12:
+
+
+# Item 13: Prefer const_iterator to iterator
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
 
 _There is no simple way to get a const_iterator from a non-const container_ ??
