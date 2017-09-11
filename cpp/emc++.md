@@ -52,14 +52,14 @@
     * Base class function must be virtual
     class Base {
     public:
-      virtual void mf1() const override;
+      virtual void mf1() const ;
 
 
     };
 
     class Derived {
     public:
-      void mf1();	
+      void mf1() const override;	
 
     };
   
