@@ -9,8 +9,6 @@
     Non-member function
     
   **overload:**
-      bool isLucky(int number);
-      bool isLucky(float number) = delete;
       
     #include <iostream>
     using namespace std;
