@@ -78,6 +78,13 @@
     
     An expression is an rvalue if it results in a temporary object 
     In C++03, there was a costly and unnecessary deep copies that can happen implicitly when objects are passed by value. We can avoid the performance hit due to deep copy by using a rvalue reference.
+    
+    A& operator=(A&& other) noexcept
+    {
+      mData =  other.mData;
+      other.mData = nullptr;
+      return *this;
+    }
 
 # Item 13: Prefer const_iterator to iterator
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
