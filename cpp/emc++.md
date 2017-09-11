@@ -6,6 +6,7 @@
     * Copy assignment operator
     
   **Public delete function VS Private undefined function**
+    
     Non-member function
     
   **overload:**
