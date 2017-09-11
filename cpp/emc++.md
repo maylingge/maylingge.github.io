@@ -75,6 +75,9 @@
     int& c = 1; //error
     const int& d = 1;
     int&& e = 1;
+    
+    An expression is an rvalue if it results in a temporary object 
+    In C++03, there was a costly and unnecessary deep copies that can happen implicitly when objects are passed by value. We can avoid the performance hit due to deep copy by using a rvalue reference.
 
 # Item 13: Prefer const_iterator to iterator
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
