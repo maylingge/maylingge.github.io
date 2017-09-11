@@ -63,6 +63,18 @@
 
     };
   
+    An lvalue (locator value) represents an object that occupies some identifiable location in memory (i.e. has an address).
+
+    rvalues are defined by exclusion, by saying that every expression is either an lvalue or an rvalue. Therefore, from the above  definition of lvalue, an rvalue is an expression that does not represent an object occupying some identifiable location in memory.
+    
+    Not all lvalues can be assigned to.
+    
+    rvalue reference VS lvalue reference
+    int a = 1;
+    int& b = a;
+    int& c = 1; //error
+    const int& d = 1;
+    int&& e = 1;
 
 # Item 13: Prefer const_iterator to iterator
 [link to vector reference](http://www.cplusplus.com/reference/vector/vector/insert/)
