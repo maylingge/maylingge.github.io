@@ -1,13 +1,14 @@
 # Item 11: Prefer deleted functions to private undefined ones
-special member functions that C++ automatically generates when they are needed:
-* Default constructor
-* Destructor
-* Copy constructor
-* Copy assignment operator
+    special member functions that C++ automatically generates when they are needed:
+    * Default constructor
+    * Destructor
+    * Copy constructor
+    * Copy assignment operator
     
-    Public delete function VS Private undefined function
+  **Public delete function VS Private undefined function**
     Non-member function
-    overload:
+    
+  **overload:**
       bool isLucky(int number);
       bool isLucky(float number) = delete;
       
@@ -28,9 +29,8 @@ special member functions that C++ automatically generates when they are needed:
         return 0;
     }
     
-    template instantiation
-      template<typename T>
-      void processPointer<T* ptr>;
+   **template instantiation**
+      
       #include <iostream>
       #include <vector>
       using namespace std;
