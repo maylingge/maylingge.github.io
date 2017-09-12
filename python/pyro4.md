@@ -26,4 +26,18 @@
         daemon.register(...)
         daemon.requestLoop()
     
-    
+# Misc
+### Class/Object
+
+### Connection/Proxy
+
+### Crash on server side
+
+### Timeout on server side
+
+### Asynchronous call
+
+### Callback on client side
+
+### Concurrency
+
