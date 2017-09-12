@@ -50,3 +50,12 @@
   * Rule: A verb or verb phrase should be used for controller names
   * Rule: Variable path segments may be substituted with identity-based
 values
+  * Rule: CRUD function names should not be used in URIs
+
+# Reqeust Method
+  * Rule: GET must be used to retrieve a representation of a resource
+  * Rule: HEAD should be used to retrieve response headers
+  * Rule: PUT must be used to both insert and update a stored resource
+  * Rule: PUT must be used to update mutable resources
+  * Rule: POST must be used to create a new resource in a collection
+  * Rule: POST must be used to execute controllers
