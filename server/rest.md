@@ -27,3 +27,24 @@
     https://developer.book.org
     
     
+# Resource Archetype
+### Document
+    a singular concept
+
+### Collection
+    a direcoty of resource
+    
+### Store
+    let client put resource in
+    
+### Controller
+    a REST API relies on controller
+    resources to perform application-specific actions that cannot be logically mapped to
+    one of the standard methods (create, retrieve, update, and delete, also known as
+    CRUD).
+    
+    Controller names typically appear as the last segment in a URI path, with no child
+    resources to follow them in the hierarchy.
+    
+  **Rule: A plural noun should be used for store names
+  Rule: A verb or verb phrase should be used for controller names**
