@@ -8,3 +8,4 @@
 - [ ] decorator
 - [ ] datetime
 - [ ] collections
+- [ ] logging
