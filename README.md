@@ -14,6 +14,7 @@
 * [Threading](python/threading.md)
 * [MachineLearning](python/machinelearning.md)
 * [Unicode](python/unicode.md)
+* [Modules](python/modules.md)
 
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
