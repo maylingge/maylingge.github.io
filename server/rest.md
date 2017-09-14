@@ -53,9 +53,29 @@ values
   * Rule: CRUD function names should not be used in URIs
 
 # Reqeust Method
+  * Rule: Always make proper use of HTTP methods
   * Rule: GET must be used to retrieve a representation of a resource
   * Rule: HEAD should be used to retrieve response headers
+  
+  **difference between PUT and POST**
   * Rule: PUT must be used to both insert and update a stored resource
   * Rule: PUT must be used to update mutable resources
   * Rule: POST must be used to create a new resource in a collection
   * Rule: POST must be used to execute controllers
+
+# Response status code
+    Category Description
+    1xx: Informational Communicates transfer protocol-level information.
+    2xx: Success Indicates that the client’s request was accepted successfully.
+    3xx: Redirection Indicates that the client must take some additional action in order to complete their request.
+    4xx: Client Error This category of error status codes points the finger at clients.
+    5xx: Server Error The server takes responsibility for these error status codes.
+
+  * Rule: 202 (“Accepted”) must be used to indicate successful start of an
+asynchronous action
+  * Rule: 304 (“Not Modified”) should be used to preserve bandwidth
+  * Rule: 400 (“Bad Request”) may be used to indicate nonspecific failure
+  * Rule: 401 (“Unauthorized”) must be used when there is a problem with the
+client’s credentials
+  * Rule: 403 (“Forbidden”) should be used to forbid access regardless of
+authorization state
