@@ -1,8 +1,8 @@
 
 - [x] re
-- [ ] Pyro4
+- [x] Pyro4
 - [ ] json
-- [ ] subprocess
+- [x] subprocess
 - [ ] threading
 - [ ] multiprocessing
 - [ ] decorator
