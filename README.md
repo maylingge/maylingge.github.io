@@ -5,7 +5,7 @@
 * [https](misc/https.md)
 * [linux](misc/linux.md)
 * [Reactor&Proactor](misc/Reactor_and_Proactor.md)
-* [Jekins](misc/jekins.md)
+* [Jenkins](misc/jenkins.md)
 
 
 
