@@ -79,3 +79,12 @@ asynchronous action
 client’s credentials
   * Rule: 403 (“Forbidden”) should be used to forbid access regardless of
 authorization state
+
+# HTTP header
+  * Rule: Last-Modified should be used in responses
+  * Rule: ETag should be used in responses to identify a specific version of the representational state contained in the response's entity
+  * Rule: Store must support conditional PUT requests
+  * Rule: location must be used to specify the URI of a newly created resource
+  * Rule: Expairation caching headers should be used with  (GET and HEAD requests)
+  * Rule: Use custom Header for informational purpose only
+  
