@@ -29,4 +29,5 @@
         def run(self):
             os.getppid()
     
-    Pipe: difference with subprocess.PIPE
+    multiprocessing.Queue: difference with Queue
+    multiprocessing.Pipe: difference with subprocess.PIPE
