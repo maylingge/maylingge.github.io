@@ -32,6 +32,7 @@
 
 # C++
 * [Basics](cpp/basics.md)
+* [EMC++](cpp/emc++.md)
 
 
 # English
