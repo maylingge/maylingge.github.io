@@ -28,3 +28,5 @@
         
         def run(self):
             os.getppid()
+    
+    Pipe: difference with subprocess.PIPE
