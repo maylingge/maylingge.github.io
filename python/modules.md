@@ -13,7 +13,9 @@
 
 
 # subprocess
+
 [https://stackoverflow.com/questions/4417546/constantly-print-subprocess-output-while-process-is-running]
+    
     process = subprocess.Popen(command, stdout=subprocess.PIPE)
     for line in iter(process.stdout, ""):
       print line
