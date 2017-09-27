@@ -88,3 +88,15 @@ authorization state
   * Rule: Expairation caching headers should be used with  (GET and HEAD requests)
   * Rule: Use custom Header for informational purpose only
   
+# Hypermedia Representation 
+    links convery the relationship between resources and offer clients a menu of resource-related actions.
+    href
+    rel: to identify a document htat describes the link's relation.
+  * Rule: A self link should be included in response message body
+  * Rule: Links should be used to advertise a resource's avalable actions
+  
+# Media Type Representation
+    format and schema
+    
+# Error Representation
+  * Rule: COnsistent error types hsould be used for common error conditons
