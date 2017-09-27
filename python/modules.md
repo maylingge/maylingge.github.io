@@ -4,7 +4,7 @@
 - [ ] json
 - [x] subprocess
 - [ ] threading
-- [ ] multiprocessing
+- [x] multiprocessing
 - [ ] decorator
 - [ ] datetime
 - [ ] collections
