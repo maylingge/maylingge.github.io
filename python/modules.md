@@ -36,6 +36,10 @@
 
 # Logging
     threading.Lock or threading.RLock ?
+    LogRecord
+    Logger object
     format
-    handler
+    handler object
+    filter object
+    raiseExceptions
     https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook
