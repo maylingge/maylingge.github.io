@@ -31,3 +31,11 @@
     
     multiprocessing.Queue: difference with Queue
     multiprocessing.Pipe: difference with subprocess.PIPE
+
+
+
+# Logging
+    threading.Lock or threading.RLock ?
+    format
+    handler
+    https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook
