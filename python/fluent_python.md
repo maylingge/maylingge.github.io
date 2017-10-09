@@ -4,3 +4,11 @@
     83 special method names
     __str__ : for end users
     __repr__: for debuging and logging, %r, !r
+    
+# Data structure
+## Sequence
+    container sequence
+    flat sequence
+    
+    mutable
+    immutable
