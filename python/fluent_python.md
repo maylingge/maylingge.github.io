@@ -33,3 +33,11 @@
     5. Class
     6. CLass instances
     7. Generator functions
+
+    positional arguments & keyword arguments:
+    even positional arguments can be passed as keyword but all after it must be passed in as keyword
+    In python 2, we cannot define positional arguments(keyword arguments without default value) after *args
+    In python 3, we can define keyword only arguments in this way:
+        def func(a, *, b):
+    In python 2, only **kwargs allowed after *args    
+    
