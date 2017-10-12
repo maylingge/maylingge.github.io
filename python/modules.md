@@ -10,6 +10,9 @@
 - [ ] collections
 - [ ] logging
 - [ ] socket 
+- [ ] operator
+- [ ] functools
+- [ ] itertools
 
 
 # subprocess
