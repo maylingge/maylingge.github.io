@@ -7,12 +7,12 @@
 - [x] multiprocessing
 - [ ] decorator
 - [ ] datetime
-- [ ] collections
-- [ ] logging
+- [x] collections
+- [x] logging
 - [ ] socket 
 - [ ] operator
 - [ ] functools
-- [ ] itertools
+- [x] itertools
 
 
 # subprocess
