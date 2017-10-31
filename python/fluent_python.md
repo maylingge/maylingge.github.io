@@ -66,3 +66,7 @@
     least recently used
     
 ### functools.singledispatch
+    if you decorate a plain function with @singledispatch, it becomes a generic function: a group of functions to perform the same operation in different ways, depending on the type of the first argument
+    
+### Parametrized Decorators
+    make adecorator factory that takes those arguments and returns a decorator
