@@ -41,3 +41,17 @@
         def func(a, *, b):
     In python 2, only **kwargs allowed after *args    
     
+# Decorator
+    A decorator is a callable that takes another function as argument.
+    It may perform some processing with the decorated function and returns it 
+    or replaces it with another function or callable object
+    
+    Decorators are executed immediately when a module is loaded.(import time)
+    
+## variable scope
+    if variable is assigned within the function, it is a local variable
+    we can user global to explicitly treat the variable as global variable in spite of the assignment within the function.
+
+## Closures
+    closures only matter when you have nested functions (that you need to deal with external variables that are no-global)
+    closure is function with an extended scope that encompasses no-global variables (free variables) referenced in the body of the function but not defined there.
