@@ -55,3 +55,14 @@
 ## Closures
     closures only matter when you have nested functions (that you need to deal with external variables that are no-global)
     closure is function with an extended scope that encompasses no-global variables (free variables) referenced in the body of the function but not defined there.
+
+
+## Decorators in the standard library
+### functools.wraps
+    copy the relevant attributes from decorated func to wrapper func
+    
+### functools.lru_cache
+    save the previous invocation of an expensive function
+    least recently used
+    
+### functools.singledispatch
