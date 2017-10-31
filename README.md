@@ -16,6 +16,7 @@
 * [MachineLearning](python/machinelearning.md)
 * [Unicode](python/unicode.md)
 * [Modules](python/modules.md)
+* [Fluent_python](python/fluent_python.md)
 
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
