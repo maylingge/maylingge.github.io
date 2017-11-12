@@ -111,3 +111,42 @@ _how to implement a non-member version of cbegin, cend_ ??
       }
       return 0;
     }
+
+# Item 31 lambda: Avoid default capture mode
+    lambda expression:
+    构造闭包：能够捕获作用域中变量的无名函数对象。
+    [ captures ] ( params ) { body }
+    capture by reference
+    capture by value
+    [a,&b] 其中 a 以复制捕获而 b 以引用捕获。
+    [this] 以引用捕获当前对象（ *this ）
+    [&] 以引用捕获所有用于 lambda 体内的自动变量，并以引用捕获当前对象，若存在
+    [=] 以复制捕获所有用于 lambda 体内的自动变量，并以引用捕获当前对象，若存在
+    [] 不捕获
+    
+    #include <iostream>
+    using namespace std;
+
+    class Widget {
+    public:
+       Widget(int d): divisor(d) {};
+
+       void compare(int x) ;
+
+    private:
+       int divisor;
+
+    };
+
+    void Widget::compare(int x) {
+        auto f = [] (int x) {return x > divisor;};
+        std::cout<<f(x)<<std::endl;
+    }
+    int main() {
+        // your code goes here
+        Widget w(10);
+        w.compare(5);
+        w.compare(11);
+
+        return 0;
+    }
