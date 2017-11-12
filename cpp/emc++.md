@@ -150,3 +150,9 @@ _how to implement a non-member version of cbegin, cend_ ??
 
         return 0;
     }
+
+# Item 32: move object into closure
+
+# Item 33: use decltype with auto&& and perfect forwarding
+
+# Perfer lambda over std::bind
