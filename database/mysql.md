@@ -38,7 +38,7 @@ some field still requires table level locking (such as auto_incr field)
     Whenever you create database in MySQL, the database/schema has a character set and a collation. Each character set has a default collation; see here for more information.
     The default collation for character set latin1, which is latin1_swedish_ci, happens to be case-insensitive.
     You can choose a case-sensitive collation, for example latin1_general_cs (MySQL grammar):
-    https://dba.stackexchange.com/questions/15250/how-to-do-a-case-sensitive-search-in-where-clause
+    [how to do a case sensitive search in mysql](https://dba.stackexchange.com/questions/15250/how-to-do-a-case-sensitive-search-in-where-clause)
     
     
     
