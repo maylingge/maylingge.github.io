@@ -43,3 +43,9 @@ some field still requires table level locking (such as auto_incr field)
     how to choose the proper character set and collation
     
   [mysql character set](https://dev.mysql.com/doc/refman/5.7/en/charset.html)
+  
+    A character set is a set of symbols and encodings. 
+    A collation is a set of rules for comparing characters in a character set. 
+    
+  select * from information_schema.character_sets;
+  show character set like 'latin%';
