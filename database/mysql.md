@@ -40,5 +40,6 @@ some field still requires table level locking (such as auto_incr field)
     You can choose a case-sensitive collation, for example latin1_general_cs (MySQL grammar):
   [how to do a case sensitive search in mysql](https://dba.stackexchange.com/questions/15250/how-to-do-a-case-sensitive-search-in-where-clause)
     
+    how to choose the proper character set and collation
     
     
