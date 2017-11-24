@@ -47,5 +47,14 @@ some field still requires table level locking (such as auto_incr field)
     A character set is a set of symbols and encodings. 
     A collation is a set of rules for comparing characters in a character set. 
     
-  select * from information_schema.character_sets;
-  show character set like 'latin%';
+    select * from information_schema.character_sets;
+    show character set like 'latin%';
+    
+    A given character set always has at least one collation, and most character sets have several. 
+    show collation;
+    
+    If your character set index file does not contain the name for the character set, your program displays an error message. The file is     named Index.xml and the message is:
+
+    Character set 'charset_name' is not a compiled character set and is not
+    specified in the '/usr/share/mysql/charsets/Index.xml' file
+    To solve this problem, you should either get a new index file or manually add the name of any missing character sets to the current file.
