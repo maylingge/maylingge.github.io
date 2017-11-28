@@ -58,3 +58,17 @@ some field still requires table level locking (such as auto_incr field)
     Character set 'charset_name' is not a compiled character set and is not
     specified in the '/usr/share/mysql/charsets/Index.xml' file
     To solve this problem, you should either get a new index file or manually add the name of any missing character sets to the current file.
+
+
+
+# VARCHAR 
+    alter table test modify name varchar(2000);
+    
+    failed with following error:
+    	
+        This question already has an answer here:
+        #1071 - Specified key was too long; max key length is 1000 bytes 
+        
+    This is because we have index on field 'name'.
+    And MyISAM has a limit of 1000 bytes for indexes.InnoDB has an even smaller limit (767 bytes) unless you're on MySQL 5.7.7+, in which case the limit is 3072 bytes by default.
+    drop the index or try to reduce your index size. Such as using prefix as index
