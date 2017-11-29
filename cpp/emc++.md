@@ -155,4 +155,4 @@ _how to implement a non-member version of cbegin, cend_ ??
 
 # Item 33: use decltype with auto&& and perfect forwarding
 
-# Perfer lambda over std::bind
+# Item 34: Perfer lambda over std::bind
