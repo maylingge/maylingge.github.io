@@ -94,3 +94,13 @@
       CHARACTER SET latin1
       COLLATE latin1_swedish_ci;
     
+
+
+# Variables
+    MySQL has three different kinds of variables: local variable, session variable, global variable
+    session is created when a client is connected with the server and terminated when the connection closed.
+    select @@variable_name; # global/session variable
+    select @variable_name; # local variable
+    
+    show [global|session] variables like 'pattern'| where expr;
+
