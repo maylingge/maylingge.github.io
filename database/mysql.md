@@ -72,3 +72,31 @@ some field still requires table level locking (such as auto_incr field)
     This is because we have index on field 'name'.
     And MyISAM has a limit of 1000 bytes for indexes.InnoDB has an even smaller limit (767 bytes) unless you're on MySQL 5.7.7+, in which case the limit is 3072 bytes by default.
     drop the index or try to reduce your index size. Such as using prefix as index
+
+# MySQL Collation
+    each character set has a default collation
+    
+## Server level
+    default is latin1 and latin1_swedish_ci
+    to change the default server setting, you need to recompile MySQL source code.
+    
+## Database level
+    To change database default character set and collation:
+        Alter database db_name CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+    To see the default character set and collation for a given database:
+        USE db_name; SELECT @@character_set_database, @@collation_database;
+    can only affect the newly created table;
+ 
+## Table level
+    The table character set and collation are used as default values for column definitions if the column character set and collation are not specified in individual column definitions. The table character set and collation are MySQL extensions; there are no such things in standard SQL.
+    CREATE TABLE t1
+    (
+        col1 CHAR(10)
+    ) CHARACTER SET latin1 COLLATE latin1_bin;
+
+## Column level
+    ALTER TABLE t1 MODIFY
+    col1 VARCHAR(5)
+      CHARACTER SET latin1
+      COLLATE latin1_swedish_ci;
+    
