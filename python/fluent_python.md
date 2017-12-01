@@ -50,11 +50,15 @@
     
 ## variable scope
     if variable is assigned within the function, it is a local variable
-    we can user global to explicitly treat the variable as global variable in spite of the assignment within the function.
+    we can user global to explicitly treat the variable as global variable 
+    in spite of the assignment within the function.
 
 ## Closures
-    closures only matter when you have nested functions (that you need to deal with external variables that are no-global)
-    closure is function with an extended scope that encompasses no-global variables (free variables) referenced in the body of the function but not defined there.
+    closures only matter when you have nested functions 
+    (that you need to deal with external variables that are no-global)
+    closure is function with an extended scope that 
+    encompasses no-global variables (free variables) 
+    referenced in the body of the function but not defined there.
 
 
 ## Decorators in the standard library
@@ -66,7 +70,9 @@
     least recently used
     
 ### functools.singledispatch
-    if you decorate a plain function with @singledispatch, it becomes a generic function: a group of functions to perform the same operation in different ways, depending on the type of the first argument
+    if you decorate a plain function with @singledispatch, 
+    it becomes a generic function: a group of functions to perform the same operation in different ways, 
+    depending on the type of the first argument
     
 ### Parametrized Decorators
     make adecorator factory that takes those arguments and returns a decorator
