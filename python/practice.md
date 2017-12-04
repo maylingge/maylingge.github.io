@@ -12,5 +12,5 @@
     b = yield a  # yield the value of a and then suspended for caller's input
 
 
-## Day 4
+## Day 4 (12/4/2017)
     coroutine     namedTuple     Queue.PriorityQueue
