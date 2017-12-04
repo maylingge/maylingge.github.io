@@ -13,7 +13,8 @@
 - [ ] operator
 - [ ] functools
 - [x] itertools
-
+- [ ] time
+- [ ] random
 
 # subprocess
 ## how to read output of running subprocess
