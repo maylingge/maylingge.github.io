@@ -14,3 +14,9 @@
 
 ## Day 4 (12/4/2017)
     coroutine     namedTuple     Queue.PriorityQueue
+
+## Day 5 (12/14/2017)
+    yield from, asyncio
+    
+## Day 6 (12/13/2017)
+   python 3
