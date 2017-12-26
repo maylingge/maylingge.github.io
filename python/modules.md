@@ -47,3 +47,22 @@
     filter object
     raiseExceptions
     https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook
+    
+    
+    
+    
+# Time
+    time.ctime()
+    time.gmtime()
+    time.time()
+    
+    datetime.strftime()
+    datetime.strptime()
+    datetime.fromtimestamp()
+    
+    os.path.getctime()
+    
+    timezone.localtime()
+    datetime.astimezone()
+    
+    
