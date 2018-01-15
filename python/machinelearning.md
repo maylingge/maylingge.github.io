@@ -152,4 +152,20 @@
     from sklearn import svm
     
     # Linear models
+    from sklearn import linear_model
+    ## LinearRegression
+    reg = linear_model.LinearRegression()
+    reg.fit(X,y)
+    reg.coef_
     
+    ## Ridge
+    reg = linear_model.Ridge(alpha=0.1)
+    reg.fit(X, y)
+    reg.coef_
+    reg.intercept_
+    
+    ## Lasso
+    reg = linear_model.Lasso(alpha=0.1)
+    reg.fit(X, y)
+    reg.coef_
+    reg.intercept_
