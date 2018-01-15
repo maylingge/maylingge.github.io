@@ -138,3 +138,18 @@
     from sklearn.pipline import Pipeline
     from sklearn.cross_validation import ShuffleSplit
     from sklearn.metrics import precision_recall_curve, auc
+    
+    
+    
+    # Random forest
+    
+    from sklearn.ensemble import RandomForestRegressor
+    RandomForestRegressor(max_depth=2, random_state=0)
+    from sklearn.ensemble import RandomForestClassifier
+    RandomForestClassifier(max_depth=2, random_state=0)
+    
+    # SVM
+    from sklearn import svm
+    
+    # Linear models
+    
