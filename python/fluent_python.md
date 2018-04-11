@@ -84,3 +84,6 @@
     with open(a, 'w') as f1, open(b, 'w') as f2:
     
     __getattr__ is called only when there's no attribute with that name
+    __getattribute__ is called all the times for all kind of attributes
+    
+    an alternate constructor is using @classmethod decorator
