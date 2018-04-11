@@ -76,3 +76,11 @@
     
 ### Parametrized Decorators
     make adecorator factory that takes those arguments and returns a decorator
+
+# Dynamic attributes and properties
+## coding 
+    from urllib.request import urlopen
+    
+    with open(a, 'w') as f1, open(b, 'w') as f2:
+    
+    __getattr__ is called only when there's no attribute with that name
