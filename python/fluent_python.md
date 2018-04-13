@@ -87,3 +87,12 @@
     __getattribute__ is called all the times for all kind of attributes
     
     an alternate constructor is using @classmethod decorator
+    
+## Class constructor
+    an alternate constructor is using @classmethod decorator
+    __new__ is a special classmethod without the decorator
+    The path just described, from __new__ to __init__ is the usual, but not the only one.
+    The __new__ method can also return an instance of a different class, and when that
+    happens, the interpreter does not call __init__.
+    
+    
