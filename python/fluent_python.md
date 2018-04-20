@@ -95,4 +95,8 @@
     The __new__ method can also return an instance of a different class, and when that
     happens, the interpreter does not call __init__.
     
-    
+## Property
+    properties are alwyas class attributes, but they actually manage attribute access in the instances of the class
+    instance attribute shadow class attribute, but does not shadow class property
+    obj.attr does not search for attr starting with obj. it starts at obj.__class__. 
+    If there is no property named attr in the class, python looks in the obj instance itself.
