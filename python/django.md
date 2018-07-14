@@ -7,3 +7,5 @@
    
 # Where to put the util under Django project
   create a util app and registered in INSTALLED_APPS
+
+# tastypie
