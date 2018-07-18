@@ -1,6 +1,8 @@
 ## Why need shared library?
   extension, dynamically loadable module
 
+## LD_DEBUG is helpful to analyze library loading issue
+  export LD_DEBUG=libs|files|bindings|versions
 
 ## How standard linking works?
   ### Compiler and object files
