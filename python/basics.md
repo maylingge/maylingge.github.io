@@ -1,3 +1,7 @@
+# PYTHONPATH
+    Python not finding your modules with import MyModule for some reason? It's probably your PYTHONPATH
+    change sys.path will change the module search path 
+
 # iter()
   iteration protocol: 
   
