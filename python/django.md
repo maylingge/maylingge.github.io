@@ -25,3 +25,31 @@
         """
     however, the customized url defined in "prepend_urls" is directly go the defined view.
     So prefer to define the customized view with "dispatch"
+
+
+# how Django commands framework work
+
+    django.core.management: 
+    __init__.py: execute_from_command_line(sys.argv)
+                 ManagementUtility.execute(argv)
+                  handle general command
+                  fetch_command(subcommand).run_from_argv(argv)
+    
+    django.core.management.Base:              
+    BaseCommand: run_from_argv(argv)
+                      execute(args, options.__dict__)
+                        handle(args, options)
+                          run(args, options)
+                          inner_run(...)
+                              django.core.servers.basehttp.run(addr, port, ...)
+                              
+    django.core.servers.basehttp
+       WSGIServer(simple_server.WSGIServer
+
+                              
+    
+                          
+                          
+                        
+                        
+    
