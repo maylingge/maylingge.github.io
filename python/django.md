@@ -44,8 +44,19 @@
                               django.core.servers.basehttp.run(addr, port, ...)
                               
     django.core.servers.basehttp
-       WSGIServer(simple_server.WSGIServer
-
+       WSGIServer(simple_server.WSGIServer)
+          set_app
+       WSGIRequestHandler
+          run(app)
+       app(env, start_response)
+       
+       
+    django.core.handlers.wsgi
+       WSGIhandler
+       BaseHandler.get_response
+            middleware
+            view response method
+       
                               
     
                           
