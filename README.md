@@ -21,7 +21,7 @@
 # Web Server
 * [Nginx & Redis & Memcached](server/epoll.md)
 * [REST API design rules](server/rest.md)
-
+* [HTTP: the definitive guide](server/http.md)
 
 # Database
 * [LevelDB](database/leveldb.md)
