@@ -19,3 +19,16 @@
         WWW-Authentication
         Authorization
         Authorization-Info
+
+    Digest authentication:
+        one-way function to convert infinit input into fixed length output
+        MD5 - 128bit digest
+        SHA
+        irreversible
+        using nonces to protect replay
+        nonces should be something changes frequently
+        mix the nonce with password ant thus the digest changes everytime.
+        
+        
+        
+        
