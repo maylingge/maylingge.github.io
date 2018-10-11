@@ -28,6 +28,9 @@ there are some reference cycles in your app
 
     if __name__ == '__main__':
         my_func()
+        
+    note:
+    time.sleep may confuse this tool. I remove time.sleep and then it can find the real memory leak line. Otherwise you will see memory leak on time.sleep which is fake.
 
 ## monitor memory usage in heap
     http://smira.ru/wp-content/uploads/2011/08/heapy.html
