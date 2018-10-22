@@ -57,9 +57,21 @@
             middleware
             view response method
        
-                              
-    
-                          
+# how to enable django debug toolbar
+
+    1. pip install django-debug-toolbar
+    2. DEBUG = True (in settings.py)
+    3. put 'debug_toolbar',  into INSTALLED_APPS
+    4. put 'debug_toolbar.middleware.DebugToolbarMiddleware', into MIDDLEWARE_CLASSES
+    5. INTERNAL_IPS = ('127.0.0.1',) in the end of settings.py
+       the ip address must be the right one, you can get the right ip through: 
+       print "IP Address for debug-toolbar: " + request.META['REMOTE_ADDR']
+    6. In the end of urls.py:
+       if settings.DEBUG:
+          import debug_toolbar
+          urlpatterns += [
+              url(r'^__debug__/', include(debug_toolbar.urls)),
+          ]
                           
                         
                         
