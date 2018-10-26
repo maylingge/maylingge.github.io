@@ -76,21 +76,21 @@
                         
 # Django ORM optimize query
 
-   .values()
-   It’s useful when you only need a small number of the available fields. It's more efficient to select only the fields you need to use.
-   Return a list of dict. dict is the field name/value pair.
+    .values()
+    It’s useful when you only need a small number of the available fields. It's more efficient to select only the fields you need to use.
+    Return a list of dict. dict is the field name/value pair.
    
-   .values_list()
-   similar as .values(). Return a list of tuple. Each item correspond to the field value you choose.
-   if only one field is needed, such as:
-   .values_list('name', flat=True)
-   it returns a list of names. 
+    .values_list()
+    similar as .values(). Return a list of tuple. Each item correspond to the field value you choose.
+    if only one field is needed, such as:
+    .values_list('name', flat=True)
+    it returns a list of names. 
    
-   .select_related()
-   ForeignKey or OneToOneField relation can use this function.
-   it will fetch the selected relation in one query with complex sql. avoid extra sql to query related object.
+    .select_related()
+    ForeignKey or OneToOneField relation can use this function.
+    it will fetch the selected relation in one query with complex sql. avoid extra sql to query related object.
    
-   db_api.raw_query()
-   for more complex relationship like ManyToMany, raw sql query is better than query through Django ORM. This is the last choice only.
+    db_api.raw_query()
+    for more complex relationship like ManyToMany, raw sql query is better than query through Django ORM. This is the last choice only.
    
    
