@@ -65,3 +65,6 @@ resume tls session over different tcp connection
     The following command will verfiy whether the certificate is installed correctly:
       penssl verify server.crt
       server.crt: OK
+
+## how to generate a private certificate
+    openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout cert.pem
