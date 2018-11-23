@@ -46,3 +46,22 @@ resume tls session over different tcp connection
 
 # HTTP Persistent connection 
 [keep alive](http://51write.github.io/2014/04/09/keepalive/)
+
+
+# SSL certificate
+## how to apply for an official certificate
+### create csr and private key and then pass the csr to the CA
+    openssl req -new -newkey rsa:2048 -nodes -out myserver.csr -keyout myserver.key
+    
+    
+### CA will provide a server.crt, root.crt and probably intermediate.crt
+    server.crt and myserver.key is for your server to start up with SSL enabled.
+    root.crt and intermediate.crt are to be import in browser and install on your system.
+    for redhat, the following command will update the issuer to the host:
+      cp root.crt /etc/pki/ca-trust/source/anchors/
+      cp intermediate.crt /etc/pki/ca-trust/source/anchors/
+      update-ca-trust extract
+      
+    The following command will verfiy whether the certificate is installed correctly:
+      penssl verify server.crt
+      server.crt: OK
