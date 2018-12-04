@@ -63,7 +63,7 @@ resume tls session over different tcp connection
       update-ca-trust extract
       
     The following command will verfiy whether the certificate is installed correctly:
-      penssl verify server.crt
+      openssl verify server.crt
       server.crt: OK
 
 ## how to generate a private certificate
