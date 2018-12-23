@@ -6,9 +6,9 @@ _Each query is immediately committed to the database, unless a transaction is ac
 
 
 # how to install django_wsgiserver with pyopenssl
-   pip install pyopenssl==0.13
-   pip install django_wsgiserver
+     pip install pyopenssl==0.13
+     pip install django_wsgiserver
    
-   cp OpenSSL/SSL.so OpenSSL.SSL.so
-   cp OpenSSL/rand.so OpenSSL.rand.so
-   cp OpenSSL/crypto.so OpenSSL.crypto.so
+     cp OpenSSL/SSL.so OpenSSL.SSL.so
+     cp OpenSSL/rand.so OpenSSL.rand.so
+     cp OpenSSL/crypto.so OpenSSL.crypto.so
