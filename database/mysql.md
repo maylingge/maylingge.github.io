@@ -104,3 +104,8 @@
     
     show [global|session] variables like 'pattern'| where expr;
 
+# Explain
+## extra
+    using index： 没有查找，所需数据在索引中有，无需回表取
+    using where： 查找使用了索引，但所需数据要回表取
+    using where; using index  : 查找使用了索引（where 条件列有索引） 且 所需数据就在索引中， 无需回表查询
