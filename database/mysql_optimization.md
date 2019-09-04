@@ -93,6 +93,7 @@
     3. 使用limit 1
     4. 使用inner join 代替left/right join
     5. 使用left/right join 代替子查询
-       Mysql是先对外表A执行全表查询，然后根据uuid逐次执行子查询，如果外层表是一个很大的表，我们可以想象查询性能会表现比这个更加糟糕
+       Mysql是先对外表A执行全表查询，然后根据uuid逐次执行子查询，
+       如果外层表是一个很大的表，我们可以想象查询性能会表现比这个更加糟糕
     6. 使用join的时候要用小的结果表驱动大的表，尽量让rows少，多表join应该尽量拆分，否则容易锁表/阻塞
-    6. union all 优于union
+    7. union all 优于union
