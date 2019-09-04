@@ -85,4 +85,12 @@
                          or （使用union all 或union替代） 
                          IN , NOT IN (between, exist, left join)
                          条件字段做了表达式操作
+        where子句中出现column字段的类型和传入的参数类型不一
         
+### 其他优化
+    1. 使用临时表
+    2. 批量插入
+    3. 使用limit 1
+    4. 使用inner join 代替left/right join
+    5. 使用left/right join 代替子查询
+    6. union all 优于union
