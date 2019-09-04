@@ -74,10 +74,14 @@
 
 ### 如何合理的创建索引
     1. 索引不是越多越好，最多不超过6个，多了会影响update和insert性能
-    2. 复合索引比多个单个索引好，索引的顺序很重要
+    2. 复合索引比多个单个索引好（因为MYSQL一次只能用一个索引），索引的顺序很重要
         创建了索引（A, B, C) 等同于创建了三个索引 （A), (A, B), (A, B, C)
         where 和 order by字段， where字段在前，因为先使用条件过滤数据再对数据排序
     3. 特殊查询条件不能应用索引
         like ’%abc%‘   # 前面的通配符导致不能应用索引，除非必要， 否则不要在关键字前加通配符
-        where子句中使用了 !=   ,   IS NULL, IS NOT NULL (设置默认值为0), or （使用union all 或union替代） 
+        where子句中使用了 !=   
+                         IS NULL, IS NOT NULL (设置默认值为0)
+                         or （使用union all 或union替代） 
+                         IN , NOT IN (between, exist, left join)
+                         条件字段做了表达式操作
         
