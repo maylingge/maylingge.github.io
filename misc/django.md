@@ -66,7 +66,7 @@ _Each query is immediately committed to the database, unless a transaction is ac
         class ModelA(model):
               name=CharField(max_length=255L, unique=True)
               b=ForeignKey(ModelB)
-              c=OneToOne(ModelC)  
+              c=OneToOne(ModelC, related_name='a')  
               ds=ManyToMany(ModelD)
 
         class ModelB(model):
