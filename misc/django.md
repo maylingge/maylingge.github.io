@@ -63,28 +63,33 @@ _Each query is immediately committed to the database, unless a transaction is ac
 
 # Django n+1 issues
 ## example
-   class ModelA(model):
-         name=CharField(max_length=255L, unique=True)
-         b=ForeignKey(ModelB)
-         c=OneToOne(ModelC)  
-         d=ManyToMany(ModelD)
-         
-   class ModelB(model):
-         name=CharField(max_length=255L, unique=True)
-        
-   class ModelC(model):
-         name=CharField(max_length=255L, unique=True)
-         
-   class ModelD(model):
-         name=CharField(max_length=255L, unique=True)
+        class ModelA(model):
+              name=CharField(max_length=255L, unique=True)
+              b=ForeignKey(ModelB)
+              c=OneToOne(ModelC)  
+              ds=ManyToMany(ModelD)
+
+        class ModelB(model):
+              name=CharField(max_length=255L, unique=True)
+
+        class ModelC(model):
+              name=CharField(max_length=255L, unique=True)
+
+        class ModelD(model):
+              name=CharField(max_length=255L, unique=True)
 
          
 ## Forward many to one relation
-   as = ModelA.objects.all()
-   for a in as:
-       print a.b.name
+        as = ModelA.objects.all()
+        for a in as:
+            print a.b.name
 
 ## reverse many to one relation
-   bs = ModelB.objects.all()
-   for b in bs:
-       print b.a_set.all()
+        bs = ModelB.objects.all()
+        for b in bs:
+            print b.a_set.all()
+
+## forward many to many
+        as = ModelA.objects.all()
+        for a in as:
+            print a.ds.all()
