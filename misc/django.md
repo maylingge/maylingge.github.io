@@ -79,12 +79,12 @@ _Each query is immediately committed to the database, unless a transaction is ac
               name=CharField(max_length=255L, unique=True)
 
          
-## Forward many to one relation
+## Forward many to one
         as = ModelA.objects.all()
         for a in as:
             print a.b.name
 
-## reverse many to one relation
+## reverse many to one
         bs = ModelB.objects.all()
         for b in bs:
             print b.a_set.all()
@@ -93,3 +93,13 @@ _Each query is immediately committed to the database, unless a transaction is ac
         as = ModelA.objects.all()
         for a in as:
             print a.ds.all()
+
+## forward one to one
+        as = ModelA.objects.all()
+        for a in as:
+            print a.c.name
+## reverse one to one
+        cs = ModelC.objects.all()
+        for c in cs:
+            print c.a.name
+ 
