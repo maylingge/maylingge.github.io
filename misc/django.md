@@ -59,3 +59,32 @@ _Each query is immediately committed to the database, unless a transaction is ac
      -> for receiver in self.receivers_for(sender)]
      > /home/lynn/.local/lib/python2.7/site-packages/nplusone/core/listeners.py(101)handle_lazy()
      -> model, instance, field = parser(args, kwargs, context)
+
+
+# Django n+1 issues
+## example
+   class ModelA(model):
+         name=CharField(max_length=255L, unique=True)
+         b=ForeignKey(ModelB)
+         c=OneToOne(ModelC)  
+         d=ManyToMany(ModelD)
+         
+   class ModelB(model):
+         name=CharField(max_length=255L, unique=True)
+        
+   class ModelC(model):
+         name=CharField(max_length=255L, unique=True)
+         
+   class ModelD(model):
+         name=CharField(max_length=255L, unique=True)
+
+         
+## Forward many to one relation
+   as = ModelA.objects.all()
+   for a in as:
+       print a.b.name
+
+## reverse many to one relation
+   bs = ModelB.objects.all()
+   for b in bs:
+       print b.a_set.all()
