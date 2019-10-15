@@ -63,11 +63,11 @@ _Each query is immediately committed to the database, unless a transaction is ac
 
 # Django n+1 issues
 ## example
-        class ModelA(model):
+        class ModelF(model):
               name=CharField(max_length=255L, unique=True)
-              b=ForeignKey(ModelB)
-              c=OneToOne(ModelC, related_name='a')  
-              ds=ManyToMany(ModelD)
+              b=ForeignKey(ModelB, related_name = 'fs')
+              c=OneToOneField(ModelC, related_name='f')  
+              ds=ManyToManyField(ModelD, related_name='fs')
 
         class ModelB(model):
               name=CharField(max_length=255L, unique=True)
@@ -103,3 +103,32 @@ _Each query is immediately committed to the database, unless a transaction is ac
         for c in cs:
             print c.a.name
  
+     #fs = ModelF.objects.all()
+     fs = ModelF.objects.all().select_related('b__name', 'c__name') #.prefetch_related('ds')
+     for f in fs:
+        # foreignkey
+        print f.b.name
+
+        # onetoone
+        print f.c.name
+
+        # manytomany
+        ds = f.ds.all()
+        for d in ds:
+            print d.name
+
+    # OneToMany (reverse foreign relation, not work, issue of django 1.6 probably)
+    #bs = ModelB.objects.select_related('fs').all()
+    #for b in bs:
+    #    print b.fs.all()
+
+
+    ### reverse onetoone, not work, issue of django 1.6 probably)
+    ##cs = ModelC.objects.all()
+    ##for c in cs:
+    ##    print c.f.name
+
+    # reverse many to many
+    ds = ModelD.objects.all() #.prefetch_related('fs')
+    for d in ds:
+        print d.fs.all()
