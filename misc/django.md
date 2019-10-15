@@ -84,3 +84,6 @@ _Each query is immediately committed to the database, unless a transaction is ac
     ds = ModelD.objects.all() #.prefetch_related('fs')
     for d in ds:
         print d.fs.all()
+
+
+    Potential n+1 query detected on `ModelD.modelf`
