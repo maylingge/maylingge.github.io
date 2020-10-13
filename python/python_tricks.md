@@ -14,3 +14,7 @@
     
 ## Others
 ### code linter
+    pylint
+    
+### freeze
+    python freeze.py test.py
