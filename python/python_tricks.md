@@ -12,7 +12,12 @@
 
     PYTHONOPTIMIZE
         sys.flags.optimize  0,1,2
-    
+
+## Context manager (with statement)
+    class-based 
+        return
+    @contextmanager-based
+        yield
     
     
 ## Others
@@ -22,3 +27,5 @@
 ### freeze
     python freeze.py test.py
     make
+    
+### print statement in 2.x and print function in 3.x
