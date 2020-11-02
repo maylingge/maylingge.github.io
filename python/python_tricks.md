@@ -19,6 +19,12 @@
     @contextmanager-based
         yield
     
+## name mangling
+    __var
+    _Classname_var
+    
+## import *
+    __all__
     
 ## Others
 ### code linter
