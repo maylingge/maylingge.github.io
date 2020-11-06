@@ -28,7 +28,15 @@
     
 
 ## python namespaces
-
+    __builtins__
+    
+## Function
+  ### Functions are first-class
+    inner function can capture and cary some of the parent function's state
+    A closure remembers the values from its enclosing lexical scope even when the program flow is no longer in that scope.
+    all functions are objects in Python and object can also act as a function to be callable
+    built-in function "callable" to check whether an object is callable.
+    
 ## Others
 ### code linter
     pylint
