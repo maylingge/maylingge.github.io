@@ -94,3 +94,5 @@
     for more complex relationship like ManyToMany, raw sql query is better than query through Django ORM. This is the last choice only.
    
    
+# Profiler
+    https://docs.python.org/2/library/profile.html
