@@ -29,6 +29,7 @@
 
 ## python namespaces
     __builtins__
+    LEGB : local enclosing global builtins
     
 ## Function
   ### Functions are first-class
@@ -37,6 +38,13 @@
     all functions are objects in Python and object can also act as a function to be callable
     built-in function "callable" to check whether an object is callable.
     
+  ### closure
+    non-local variables are in the enclosing scope
+    __closure__ is only available when non-local variables are used in the inner function
+    
+    __closure__[0].cell_contents
+  
+   
 ## Others
 ### code linter
     pylint
