@@ -47,6 +47,14 @@
   ### method
     method is a function which belongs to an object and can access the associated data of that object.
    
+  ### decorators
+    def mydec(func):
+        @functools.wraps(func)            # carries over the docstring and other metadata of the input function
+        def wrapper(*args, **kwargs)      # store all positional arguments in args, and keyword arguments in kwargs
+            return_value = func(*args, **kwargs) # unpack the arguments to input function
+            return return_value
+        return wrapper
+  
 ## Others
 ### code linter
     pylint
