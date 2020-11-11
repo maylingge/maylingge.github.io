@@ -44,6 +44,8 @@
     
     __closure__[0].cell_contents
   
+  ### method
+    method is a function which belongs to an object and can access the associated data of that object.
    
 ## Others
 ### code linter
