@@ -54,6 +54,7 @@
             return_value = func(*args, **kwargs) # unpack the arguments to input function
             return return_value
         return wrapper
+  ### return None : implicitly
   
 ## Others
 ### code linter
