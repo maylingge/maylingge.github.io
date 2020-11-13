@@ -56,6 +56,23 @@
         return wrapper
   ### return None : implicitly
   
+  
+## Classes
+  ### every class needs a __repr__
+  ### exception
+     define your own exception class and define your own base exception class
+  ### clone
+     shallow copy is just one level deep
+     import copy
+     # shallow
+     copy.copy
+     
+     for built-in collections, just use list,dict and set factory functions to create shallow copies
+     # deep
+     copy.deepcopy
+     
+     define __copy__() and __deepcopy__() to customize the copy behavior
+  
 ## Others
 ### code linter
     pylint
