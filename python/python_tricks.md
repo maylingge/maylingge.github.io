@@ -72,7 +72,21 @@
      copy.deepcopy
      
      define __copy__() and __deepcopy__() to customize the copy behavior
-  
+
+
+# Data structure
+## Dictionary
+    collections.OrderedDict
+    collections.defaultdict
+    collections.ChainMap
+    types.MappingProxyType
+## Array
+    list  (mutable)
+    tuple
+    array.array (mutable)
+    str
+    bytes
+    bytearray (mutable)
 ## Others
 ### code linter
     pylint
