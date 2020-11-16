@@ -73,7 +73,41 @@
      
      define __copy__() and __deepcopy__() to customize the copy behavior
 
+  ### Abstract base class
+    from abc import ABCMeta, abstractmethod
+    class Base(metaclass=ABCMeta):
+    @abstractmethod
+    def foo(self):
+    pass
+    @abstractmethod
+    def bar(self):
+    pass
+    class Concrete(Base):
+    def foo(self):
+    pass
 
+  ### collection.namedtuple
+    namedtuples are a memoryefficient shortcut to defining an immutable class in Python manually.
+    _fields
+    _make
+    _asdict
+    
+  ### class VS instance variable
+    use self.__class__.xxx to access class variable in instance method
+    
+  ### isntance, class and static method
+    class MyClass:
+        def method(self):
+            return 'instance method called', self
+        @classmethod
+        def classmethod(cls):
+            return 'class method called', cls
+        @staticmethod
+        def staticmethod():
+            return 'static method called'
+    
+    staticmethod just limit the method to the class's namespace 
+    
 # Data structure
 ## Dictionary
     collections.OrderedDict
