@@ -109,18 +109,49 @@
     staticmethod just limit the method to the class's namespace 
     
 # Data structure
-## Dictionary
+### Dictionary
     collections.OrderedDict
     collections.defaultdict
     collections.ChainMap
     types.MappingProxyType
-## Array
+    
+### Array
     list  (mutable)
     tuple
     array.array (mutable)
     str
     bytes
-    bytearray (mutable)
+    bytearray (mutable)  
+    
+### Records
+    collections.namedtuple
+    typing.NamedTuple
+    struct.Struct
+    types.SimpleNamespace
+    
+### set, frozenset, collections.Counter
+    
+### stack
+    append(), pop()
+    collections.deque
+    
+    put(), get()
+    queue.LifoQueue   # for parallel computing
+    
+### Queue
+    append(), popleft()
+    collections.deque
+    
+    put(), get()
+    queue.Queue   # for parallel computing
+    multiprocessing.Queue 
+
+### priority queue
+    heapq: heappush(), heappop()
+    
+    queue.PriorityQueue  : put(), get()
+   
+    
 ## Others
 ### code linter
     pylint
@@ -132,3 +163,11 @@
 ### print statement in 2.x and print function in 3.x
 
 ### PEP8
+
+### dis
+
+### bisect.insort
+
+### @property setters and getters
+
+### struct.Struct
