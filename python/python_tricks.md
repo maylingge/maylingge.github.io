@@ -151,6 +151,18 @@
     
     queue.PriorityQueue  : put(), get()
    
+# Iteration
+### iterator
+    __iter__()
+    __next__()
+    next()
+    raise StopIteration
+    
+### generator function
+    yield xxx
+    
+### generator expression
+    (expr for item in collection if condition)
     
 ## Others
 ### code linter
