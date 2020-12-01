@@ -117,3 +117,6 @@
     const: where条件筛选后 至多有一条记录符合条件
     index: 使用索引数据结构中的叶子节点双向链表查询数据
 
+# bulk_insert_update is slower 
+
+# execute_many not in single query
